@@ -1,3 +1,0 @@
-var e=globalThis.parcelRequire1a02;(0,e.register)("5KNkF",function(a,l){Object.defineProperty(a.exports,"__esModule",{value:!0,configurable:!0}),Object.defineProperty(a.exports,"default",{get:()=>i,set:void 0,enumerable:!0,configurable:!0});var o=e("ayMG0"),i=()=>/*#__PURE__*/(0,o.jsxs)("div",{className:"m-4 p-1 flex flex-col min-h-[70vh]",children:[/*#__PURE__*/(0,o.jsx)("h1",{className:"text-lg font-bold",children:"Instamart"}),/*#__PURE__*/(0,o.jsx)("h3",{children:"Coming soon! (This Component is loaded using Lazy Loading)"})]})});//# sourceMappingURL=Instamart.729f25ec.js.map
-
-//# sourceMappingURL=Instamart.729f25ec.js.map
