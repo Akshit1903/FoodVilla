@@ -22,7 +22,7 @@ Follow these steps to get the FoodVilla project up and running on your local mac
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/Akshit1903/FoodVilla.git
+    git clone https://github.com/Akshit1903/FoodVilla.git
    ```
 
 2. **Install the dependencies:**
