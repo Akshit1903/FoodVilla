@@ -14,7 +14,14 @@ const Body = () => {
   async function fetchRestaurants() {
     const URL =
       "https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.5607066&lng=77.04997&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
-    const data = await fetch(URL);
+    const data = await fetch(URL, {
+      method: "GET",
+      mode: "cors",
+      headers: {
+        // "Access-Control-Allow-Origin": "*",
+        // "Access-Control-Allow-Headers": "*",
+      },
+    });
     const json = await data.json();
     const restData =
       json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle
