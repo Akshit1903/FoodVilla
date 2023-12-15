@@ -27,16 +27,16 @@ Follow these steps to get the FoodVilla project up and running on your local mac
 
 2. **Install the dependencies:**
 
-```bash
-    cd FoodVilla
-    npm install
-```
+   ```bash
+       cd FoodVilla
+       npm install
+   ```
 
 3. **Start the application:**
 
-```bash
-    npm start
-```
+   ```bash
+       npm start
+   ```
 
 ## Technologies Used
 
