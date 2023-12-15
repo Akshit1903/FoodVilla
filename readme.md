@@ -20,9 +20,11 @@ Note: Install this <a href="https://chromewebstore.google.com/detail/allow-cors-
 Follow these steps to get the FoodVilla project up and running on your local machine:
 
 1. **Clone the Repository:**
+
    ```bash
    git clone https://github.com/Akshit1903/FoodVilla.git
    ```
+
 2. **Install the dependencies:**
 
 ```bash
