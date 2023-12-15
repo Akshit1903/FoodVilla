@@ -1,13 +1,16 @@
 {
   "name": "foodvilla",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "homepage": "https://Akshit1903.github.io/FoodVilla/",
+  "description": "FoodVilla is a web application designed to simplify the online food ordering process. ",
+  "source": "src/index.html",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html",
     "test": "jest",
-    "test-watch": "jest --watchAll"
+    "test-watch": "jest --watchAll",
+    "predeploy": "parcel build --public-url https://akshit1903.github.io/FoodVilla/",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +18,7 @@
   "dependencies": {
     "@reduxjs/toolkit": "^2.0.1",
     "@testing-library/jest-dom": "^6.1.5",
+    "gh-pages": "^6.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^9.0.4",
